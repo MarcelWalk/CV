@@ -64,11 +64,13 @@ html {
 .fp-controlArrow.fp-next {
     width: 50vw;
     height: 100vh;
+    top: 0px;
     border-color: transparent transparent transparent transparent;
 }
 
 .fp-controlArrow.fp-prev {
     width: 50vw;
     height: 100vh;
+    top: 0px;
     border-color: transparent transparent transparent transparent;
 }
