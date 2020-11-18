@@ -1,13 +1,13 @@
-html{
+html {
     font-family: 'Roboto Mono', monospace;
     color: whitesmoke;
 }
 
-.section{
+.section {
     background-color: #1E1E1E;
 }
 
-.nav{
+.nav {
     width: 100vw;
     background-color: #1E1E1E;
     position: absolute;
@@ -15,7 +15,7 @@ html{
     border-bottom: solid 1px #222222;
 }
 
-.footer{
+.footer {
     width: 100vw;
     background-color: #1E1E1E;
     position: absolute;
@@ -24,23 +24,23 @@ html{
     border-top: solid 1px #222222;
 }
 
-.nav h1{
+.nav h1 {
     margin: 0rem;
     padding: 2rem;
-    
+
     font-size: 2rem;
     font-family: 'Major Mono Display', monospace;
     font-weight: 200;
 }
 
-.content{
+.content {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     max-width: 70%;
 }
 
-.skill{
+.skill {
     background-color: #252526;
     border: solid 1px #252526;
     border-radius: 20px;
@@ -49,23 +49,26 @@ html{
     display: inline-block;
 }
 
-.fp-slidesNav .fp-bottom{
+.fp-slidesNav .fp-bottom {
     margin: auto;
 }
 
-.content.jobs{
+.content.jobs {
     text-align: left;
 }
 
-.fp-slidesNav.fp-bottom{
+.fp-slidesNav.fp-bottom {
     text-align: center;
 }
 
-.fp-controlArrow.fp-next{
-    right: 50px;
-    border-color: transparent transparent transparent #333;
+.fp-controlArrow.fp-next {
+    width: 50vw;
+    height: 100vh;
+    border-color: transparent transparent transparent transparent;
 }
-.fp-controlArrow.fp-prev{
-    left: 50px;
-    border-color: transparent #333 transparent transparent;
+
+.fp-controlArrow.fp-prev {
+    width: 50vw;
+    height: 100vh;
+    border-color: transparent transparent transparent transparent;
 }
