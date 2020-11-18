@@ -1,0 +1,71 @@
+html{
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+}
+
+.section{
+    background-color: #1E1E1E;
+}
+
+.nav{
+    width: 100vw;
+    background-color: #1E1E1E;
+    position: absolute;
+    z-index: 99;
+    border-bottom: solid 1px #222222;
+}
+
+.footer{
+    width: 100vw;
+    background-color: #1E1E1E;
+    position: absolute;
+    z-index: 99;
+    bottom: 0px;
+    border-top: solid 1px #222222;
+}
+
+.nav h1{
+    margin: 0rem;
+    padding: 2rem;
+    
+    font-size: 2rem;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 200;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 70%;
+}
+
+.skill{
+    background-color: #252526;
+    border: solid 1px #252526;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+.fp-slidesNav .fp-bottom{
+    margin: auto;
+}
+
+.content.jobs{
+    text-align: left;
+}
+
+.fp-slidesNav.fp-bottom{
+    text-align: center;
+}
+
+.fp-controlArrow.fp-next{
+    right: 50px;
+    border-color: transparent transparent transparent #333;
+}
+.fp-controlArrow.fp-prev{
+    left: 50px;
+    border-color: transparent #333 transparent transparent;
+}
